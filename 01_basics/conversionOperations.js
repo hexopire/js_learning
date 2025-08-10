@@ -64,3 +64,7 @@ console.log(isNaN({}))         // true
 console.log(isNaN([1]))        // false
 console.log(isNaN([1, 2]))     // true
 
+//Notes:-- Any math operation with Strings except '+' will turn the string to number like below some valid exmaples
+// "42" * 1;   // 42
+// "42" / 2;   // 21
+// "42" - 0;   // 42
