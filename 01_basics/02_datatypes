@@ -1,0 +1,34 @@
+let rain=true;   //boolean
+let temperature=30.908;  //number
+let weather='sunny';   //string
+let isRaining           //undefined
+let forecast=null;      //null
+
+console.table({rain, temperature, weather, isRaining, forecast});
+  
+
+/*  Non-Primitive Data Types (Reference Types)
+Definition: Complex data types that hold collections of values or objects.
+
+Stored: Variables hold a reference (memory address) to the actual object.
+
+Mutable: Their content can be changed.
+
+Types:
+
+Object
+
+Array
+
+Function */
+let person = {                 // Object
+  name: 'John',
+  age: 30,
+  isEmployed: true
+};
+
+let numbers = [1, 2, 3, 4, 5];   // Array
+ 
+function greet() {
+  console.log('Hello, World!');                 // Function
+}
