@@ -1,0 +1,28 @@
+const myArr = ["vinay", "sachin", "suresh", "ramesh","Sai","shashank", "s",];
+const f = myArr.map(n => {
+    return n.toUpperCase();
+});
+
+// function myFunction(n){
+//     return n.toLowerCase();
+// }
+// console.log(f);
+
+// filter method in arrays
+
+const s_name = myArr.filter((s) => {
+    if (s.charAt(0) === "s" || s.charAt(0) === "S") {
+        return s;
+    }
+    else if (s.length === 1) {
+        return s;
+    }
+})
+console.log(s_name)
+
+// Note:
+// splice - with it we can replace, modiy and delte in the original array
+// push - add to the end of array
+// pop - removed the last element of array
+// shift - removes the first ekement of the array
+// unshif - adds to the front of the array
